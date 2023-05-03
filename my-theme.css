@@ -1,6 +1,20 @@
 /* @theme my-theme */
 @import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+:root {
+  --gray100: #0d1117;
+	--gray200: #292d34;
+	--gray300: #434952;
+	--gray400: #606874;
+	--gray500: #808796;
+	--gray600: #a1a9ba;
+	--gray700: #c7ccd7;
+	--gray800: #f0f1f4;
+}
+
 section {
-  background-color: #0e0e0e;
-  color: white
+  font-family: Quicksand, sans-serif;
+  background-color: var(--gray100);
+  color: var(--gray800)
 }
