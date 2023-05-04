@@ -11,10 +11,23 @@
 	--gray600: #a1a9ba;
 	--gray700: #c7ccd7;
 	--gray800: #f0f1f4;
+	font-size: 40px;
 }
 
 section {
   font-family: Quicksand, sans-serif;
   background-color: var(--gray100);
-  color: var(--gray800)
+  color: var(--gray700)
+}
+h1, h2, h3 {
+	color: var(--gray800);
+}
+h3 {
+	font-size: 1.5em;
+}
+h2 {
+	font-size: 2em;
+}
+h1 {
+	font-size: 3em;
 }
